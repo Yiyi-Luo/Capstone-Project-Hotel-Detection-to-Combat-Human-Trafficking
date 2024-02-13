@@ -78,9 +78,7 @@ By artificially expanding the training dataset through various transformations, 
 
 <img width="438" alt="Screenshot 2024-02-11 at 8 53 14 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/ed156d4e-b008-4da0-8a45-c9709b5b2bc9">
 
-<img width="788" alt="Screenshot 2024-02-11 at 8 08 30 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/8e1cc2e4-3500-43cf-8d0f-2759ef4fc651">
-
-<img width="5000" alt="Screenshot 2024-02-10 at 9 42 17 AM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/7d09cd9f-4e3c-44fc-a569-a618b6cf91e5">
+<img width="798" alt="Screenshot 2024-02-13 at 12 14 17 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/798751dc-a02c-481a-9b8f-bd1b98b3e3ed">
 
 
 **The limitations of a basic Keras model** in handling such a complex and nuanced task stem from its typically shallow architecture, which might lack the capacity to capture the subtle differences between highly similar hotel rooms.
