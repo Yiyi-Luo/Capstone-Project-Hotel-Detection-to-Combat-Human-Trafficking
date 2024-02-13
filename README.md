@@ -158,7 +158,7 @@ The project's advancement is currently hampered by a scarcity of data. Identifyi
 
 **5. User Interface Development:** Consideration is being given to creating a Streamlit-based application, which would simplify the process of uploading images for users, thereby bolstering the dataset and improving the model's precision.
 
-**Each step taken towards optimizing the model's performance is a step towards the noble aim of rescuing more lives. The commitment to this cause remains the project's driving force.**
+**Each step taken towards optimizing the model's performance is a step towards the aim of rescuing more lives. The commitment to this cause remains the project's driving force.**
 
 <img width="840" alt="Screenshot 2024-02-10 at 1 57 19 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/3d1a5e98-6647-4e42-a34e-9aca711c00fa">
 
