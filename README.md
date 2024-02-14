@@ -129,7 +129,7 @@ We calculates the mean accuracy of the model on the validation set across all tr
 
 **Test accuracy score is 0.44.**
 
-<img width="591" alt="Screenshot 2024-02-14 at 4 04 52 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/4f6f3e9e-09cf-4140-a971-e1977653b0e0">
+<img width="929" alt="Screenshot 2024-02-14 at 6 19 45 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/c7e06e99-e285-44a9-bb7d-63261c34fe53">
 
 After rigorous experimentation with various configurations of the EfficientNetB0 model, we observed marginal enhancements in validation accuracy and a slight reduction in validation loss. However, the performance gains have plateaued, indicating a potential limitation in the capacity of the base model to learn more complex patterns or generalize further from our dataset. It suggests that we may have reached the intrinsic performance ceiling of the EfficientNetB0 architecture for our specific application. In pursuit of more substantial improvements, we have decided to transition our efforts to the ArcFace method. 
 
@@ -154,7 +154,7 @@ By adjusting the cosine distance between feature vectors and class centers with 
 
 We **freeze all but the last three layers of EfficientNetB0** for feature extraction, apply **global average pooling**, and optionally include dropout for regularization. The ArcMarginProduct layer, which requires both feature and label inputs, is utilized to enforce an angular margin that enhances the separability between classes.
 
-<img width="929" alt="Screenshot 2024-02-14 at 6 19 45 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/3be17b78-2f49-40ca-b9d5-85e543d341fc">
+<img width="686" alt="Screenshot 2024-02-11 at 3 57 27 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/29e4c883-02b4-4212-8d94-fa025ccb3eb3">
 
 **Note:** Incorporating the ArcFace method into our EfficientNetB0 model represents a strategic pivot towards leveraging advanced techniques to enhance feature discrimination. However, the optimization of such sophisticated methods requires extensive experimentation and tuning to fully realize their potential. Given the constraints of our capstone project's timeline, we have not yet achieved the optimal configuration of the ArcFace-enhanced EfficientNetB0 model that surpasses the performance of other models. As of the submission of this minimum viable product (MVP) notebook, our exploration into fine-tuning and experimentation is ongoing. We anticipate that with additional time and iterative refinement, the integration of ArcFace will yield significant performance improvements and set a new benchmark for our model's capabilities.
 
