@@ -111,7 +111,9 @@ We calculates the mean accuracy of the model on the validation set across all tr
 
 **Among all the pre-trained models, EfficientNetB0 stood out; we continue to use the EfficientNetB0 architecture as a base, leveraging transfer learning, regularization, and data augmentation to enhance performance on potentially complex datasets.**
 
-<img width="850" alt="Screenshot 2024-02-11 at 7 16 38 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/4bf5c52c-c0a3-4dfd-acf3-7dbdd2d6493c">
+The best model we have gotten so far is the following one: EfficientNetB0 as the base, batch size: 32, dropout layers: 3, dropout rate: 0.1, l2 regularization factor: 1e-4; **the test accuracy score is 0.44.**
+
+<img width="591" alt="Screenshot 2024-02-14 at 4 04 52 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/4f6f3e9e-09cf-4140-a971-e1977653b0e0">
 
 After rigorous experimentation with various configurations of the EfficientNetB0 model, we observed marginal enhancements in validation accuracy and a slight reduction in validation loss. However, the performance gains have plateaued, indicating a potential limitation in the capacity of the base model to learn more complex patterns or generalize further from our dataset. It suggests that we may have reached the intrinsic performance ceiling of the EfficientNetB0 architecture for our specific application. In pursuit of more substantial improvements, we have decided to transition our efforts to the ArcFace method. 
 
