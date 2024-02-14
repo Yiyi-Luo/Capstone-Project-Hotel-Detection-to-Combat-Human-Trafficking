@@ -64,6 +64,8 @@ By artificially expanding the training dataset through various transformations, 
 
 ### **Modeling**
 
+**Dummy Model**: We built a baseline model that always predicts the most common, **accuracy score is 0.0275**.
+
 ## **Part II: Basic Keras Models**
 
 **Build a machine learning workflow for image classification using TensorFlow and Keras:**
