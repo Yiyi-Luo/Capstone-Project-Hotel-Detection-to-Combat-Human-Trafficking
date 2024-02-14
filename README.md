@@ -102,6 +102,8 @@ Given the extensive size of our dataset, comprising **22,244 images across 1,674
 
 **EfficientNet** optimizes CNN scaling by uniformly increasing depth, width, and resolution with fixed coefficients, leading to state-of-the-art performance on image classification tasks. 
 
+We calculates the mean accuracy of the model on the validation set across all training epochs. It provides a more holistic view of the model's performance over time, rather than focusing on its peak performance. **Average validation accuracy** can be particularly useful for assessing the overall stability and reliability of the model during training. Our evaluation will focus on consistent performance and generalization over time.
+
 <img width="1792" alt="Screenshot 2024-02-13 at 5 29 04 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/2a08e47c-c18a-49a1-9266-00479431b83c">
 
 
