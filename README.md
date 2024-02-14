@@ -68,6 +68,8 @@ By artificially expanding the training dataset through various transformations, 
 
 **Build a machine learning workflow for image classification using TensorFlow and Keras:**
 
+**Accuracy as our evaluation metrics:** Accuracy is a straightforward and intuitive metric that measures the proportion of correct predictions out of all predictions made by a model; In the early stages of model development, we are looking for a quick and general assessment of model performance, accuracy provides a high-level view of how well the model is doing across all classes, helping to identify if further, more detailed evaluation is needed.
+
 **1.** **Set up essential parameters**: class names, the number of classes, and the number of epochs for training. The dataset is prepared using the ImageDataGenerator for image rescaling, ensuring proper input to the neural network;
    
 **2.** A versatile model creation function is defined to **construct CNN models with optional data augmentation and dropout**, making it adaptable to various scenarios. The compile_and_train_model function takes care of compiling and training the models;
