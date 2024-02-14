@@ -154,7 +154,7 @@ By adjusting the cosine distance between feature vectors and class centers with 
 
 We **freeze all but the last three layers of EfficientNetB0** for feature extraction, apply **global average pooling**, and optionally include dropout for regularization. The ArcMarginProduct layer, which requires both feature and label inputs, is utilized to enforce an angular margin that enhances the separability between classes.
 
-<img width="686" alt="Screenshot 2024-02-11 at 3 57 27 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/013f6446-75fe-4a05-862d-32356152faa3">
+<img width="929" alt="Screenshot 2024-02-14 at 6 19 45 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/3be17b78-2f49-40ca-b9d5-85e543d341fc">
 
 **Note:** Incorporating the ArcFace method into our EfficientNetB0 model represents a strategic pivot towards leveraging advanced techniques to enhance feature discrimination. However, the optimization of such sophisticated methods requires extensive experimentation and tuning to fully realize their potential. Given the constraints of our capstone project's timeline, we have not yet achieved the optimal configuration of the ArcFace-enhanced EfficientNetB0 model that surpasses the performance of other models. As of the submission of this minimum viable product (MVP) notebook, our exploration into fine-tuning and experimentation is ongoing. We anticipate that with additional time and iterative refinement, the integration of ArcFace will yield significant performance improvements and set a new benchmark for our model's capabilities.
 
