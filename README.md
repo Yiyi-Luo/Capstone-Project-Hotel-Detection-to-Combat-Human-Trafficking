@@ -111,7 +111,19 @@ We calculates the mean accuracy of the model on the validation set across all tr
 
 **Among all the pre-trained models, EfficientNetB0 stood out; we continue to use the EfficientNetB0 architecture as a base, leveraging transfer learning, regularization, and data augmentation to enhance performance on potentially complex datasets.**
 
-The best model we have gotten so far is the following one: EfficientNetB0 as the base, batch size: 32, dropout layers: 3, dropout rate: 0.1, l2 regularization factor: 1e-4; **the test accuracy score is 0.44.**
+**Please see notebook "EfficientNetB0_Fine_Tuning_Notebook" for the rest of the tweaking; it turns out adding three dropout layers with dropout rate at 0.1 and l2_factor at 1e-4 gave us the best result, it raised the accuracy score from 0.38 to 0.43.**
+
+**Base:** EfficientNetB0;
+
+**Batch size:** 32;
+
+**Dropout layers:** 3;
+
+**Dropout rate:** 0.1;
+
+**l2 regularization factor:** 1e-4;
+
+**Test accuracy score is 0.44.**
 
 <img width="591" alt="Screenshot 2024-02-14 at 4 04 52 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/4f6f3e9e-09cf-4140-a971-e1977653b0e0">
 
