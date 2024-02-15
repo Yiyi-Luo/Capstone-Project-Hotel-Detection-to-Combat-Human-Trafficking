@@ -144,6 +144,8 @@ By adjusting the cosine distance between feature vectors and class centers with 
 
 <img width="1176" alt="Screenshot 2024-02-10 at 5 48 22 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/c4559c51-fc88-44e3-9126-676c95ded963">
 
+<img width="1798" alt="Screenshot 2024-02-14 at 8 27 48 PM" src="https://github.com/Yiyi-Luo/Capstone-Project-Hotel-Detection-to-Combat-Human-Trafficking/assets/149438809/793aac38-9c8a-42c5-9c63-bb0841c852a6">
+
 #### **Reference:**
 ##### 1. https://arxiv.org/pdf/1801.07698.pdf (**Authors:** Jiankang Deng, Jia Guo, Jing Yang, Niannan Xue, Irene Kotsia, and Stefanos Zafeiriou)
 ##### 2. [How to train with ArcFace loss to improve model classification accuracy | by Yiwen Lai](https://yiwenlai.medium.com/how-to-train-with-arcface-loss-to-improve-model-classification-accuracy-d4035195aeb9) (**Author:** Yiwen Lai)
